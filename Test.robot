@@ -28,10 +28,7 @@ Test 2 Search For Pet Owner Negative Scenario
 Test 3 Create New Pet Owner Negative Scenario
     [Documentation]    Test case to create a new pet owner and validate telephone number (Negative Case)
 
-    # Navigate to the new owner form page
     Go To    ${OWNER_URL}/new
-
-    # Fill out the form with invalid telephone number
     Input Text    name=firstName    Bilawal
     Input Text    name=lastName    Ali
     Input Text    name=address    TestStraße123
